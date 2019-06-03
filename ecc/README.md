@@ -1,15 +1,19 @@
-# 椭圆曲线练习题
+# 1 椭圆曲线密码学
+
+PPT [Elliptic Curve Cryptography](Elliptic_Curve_Cryptography.pdf)
+
+# 2 练习题
 
 已知以太坊的私钥sk，计算其公钥pk和地址address
 
-1. **下载**
+## 2.1 下载
 
 ```
 $ git clone https://github.com/PPIO/ppio-blockchain-code-talks
 $ cd ppio-blockchain-code-talks/ecc
 ```
 
-2. **修改**
+## 2.2 修改
 
 修改 `ecc.go` 中的 `TODO` 部分，使代码逻辑完整。
 
@@ -49,7 +53,7 @@ func (pk *PublicKey) Address() Address {
 }
 ```
 
-3. **测试**
+## 2.3 测试
 
 ```
 $ go test
